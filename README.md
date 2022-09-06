@@ -16,7 +16,8 @@
 
 :bulb: **Veja uma amostra a seguir:**
 
-  ![project sample](./sample.gif)
+  ![image](./imgs/addItem.gif)
+  ![image](./imgs/editBtn.gif)
 
 ## Habilidades usadas:
 
