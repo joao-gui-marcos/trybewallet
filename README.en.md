@@ -17,7 +17,7 @@
 
 :bulb:**See a sample below:**
 
-![project sample](./sample.gif)
+![image](./imgs/addItem.gif)![image](./imgs/editBtn.gif)
 
 ## Skills used:
 
@@ -65,7 +65,7 @@ Create a page for the user to identify themselves, with email and password. This
 
     -   Save the email in the global state of the application, with the key**_email_**, as soon as the user_camp_;
 
-    -   The route must be changed to`/carteira`after clicking the '**Log in**'.
+    -   The route must be changed to`/carteira`after clicking the ' button**Log in**'.
         </details>
 
 <br />
@@ -218,7 +218,7 @@ To illustrate, imagine that the initial state is an empty string. In this case t
 
     -   <details><summary> Os valores dos campos devem ser salvos no estado da aplicação, na chave <b><i>expenses</i></b>, dentro de um array contendo todos gastos que serão adicionados:</summary>
 
-        -   O`id`of expense**he must**be a sequential number, starting at 0. That is: the first expense will have id 0, the second will have id 1, the third id 2, and so on.
+        -   O`id` da despesa **he must**be a sequential number, starting at 0. That is: the first expense will have id 0, the second will have id 1, the third id 2, and so on.
         -   :bulb:**Attention at this point**: you must make a request to the API and get the quote at the moment that the button of`Adicionar despesa`is tight. For this you can use a thunk.
             -   **You must save the exchange rate made at the time of adding**that will be needed to edit the expense (requirement 8). If you do not have this information saved, the value of the quote brought in may be different from that obtained previously.
 
@@ -339,7 +339,7 @@ To illustrate, imagine that the initial state is an empty string. In this case t
 
     -   A button with the text "Add Expense" is rendered.
 
-    -   By clicking on the "Add Expense" button
+    -   By clicking the "Add expense" button
             - é feita uma requisição a API
             - é salva uma nova despesa na chave `expenses` do estado global
             - o valor total do elemento com o `data-testid="total-field"` é atualizado.
@@ -396,7 +396,7 @@ To illustrate, imagine that the initial state is an empty string. In this case t
 <details>
   <summary><strong>O que será verificado</strong></summary>
 
--   The table has a header with elements`<th>` com os valores `Descrição`,`Tag`,`Método de pagamento`,`Valor`,`Moeda`,`Câmbio utilizado`,`Valor convertido`,`Moeda de conversão`e`Editar/Excluir`.
+-   The table has a header with elements`<th>`with the values`Descrição`,`Tag`,`Método de pagamento`,`Valor`,`Moeda`,`Câmbio utilizado`,`Valor convertido`,`Moeda de conversão`e`Editar/Excluir`.
     </details>
 
 * * *
@@ -530,7 +530,7 @@ The requirements below will not be evaluated by the evaluator, however you can e
 
     In this case, in addition to developing the login page with its respective elements, you must develop tests to also verify these same data-testid and its elements.**As you can see, this is an excellent opportunity to put the TDD concept into practice!**
 
-    Startest requirements will require some specific settings**pay attention to the instructions of each requirement!!**Example:
+    Startest requirements will require some specific configuration**pay attention to the instructions of each requirement!!**Example:
 
         X. Crie uma página de login
         🌟 [Requisito Startest] 🌟
